@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::after{
+	display: block;
+	content:'';
+	clear:both;
+}
+body{
+	background:green;
+}
+nav ul{
+	list-style: none;
+	/*border:1px solid red;*/
+}
+nav li{
+	float:left;
+	/*border:1px solid;*/
+	margin:0 17px;
+}
+nav li a{
+	color:rgba(255, 255, 255, 0.7);
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 19px;
+	padding: 9px 0;
+	display: block;
+	border-bottom: 3px solid transparent;
+}
+.topNavBar .logo{
+	float:left;
+	/*border:1px solid;*/
+	line-height: 40px;
+	font-size: 24px;
+	font-family: "Arial Blank";
+}
+nav{
+	float:right;
+}
+nav li a:hover{
+	border-bottom: 3px solid yellow;
+	
+}
+.topNavBar{
+	padding: 20px 16px;
+	border:1px solid red;
+}
+.topNavBar .rs{
+	margin-right: 3px;
+}

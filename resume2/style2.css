@@ -12,7 +12,8 @@ a{
 	clear:both;
 }
 body{
-	background:green;
+	background:#000;
+	color:#fff;
 }
 nav ul{
 	list-style: none;
@@ -37,19 +38,23 @@ nav li a{
 	/*border:1px solid;*/
 	line-height: 40px;
 	font-size: 24px;
-	font-family: "Arial Blank";
+	font-family: "Arial Black";
 }
 nav{
 	float:right;
 }
 nav li a:hover{
-	border-bottom: 3px solid yellow;
+	border-bottom: 3px solid #e06567;
 	
 }
 .topNavBar{
 	padding: 20px 16px;
-	border:1px solid red;
+	//border:1px solid red;
 }
 .topNavBar .rs{
 	margin-right: 3px;
+	color:#e6686a;
+}
+.topNavBar .card{
+	color:#9a9da2;
 }
